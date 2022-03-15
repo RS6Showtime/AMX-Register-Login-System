@@ -1,3 +1,3 @@
 # Easy-Register-System
-After doing some big project I just done a simple Register/Login system with a simple planel where you can restart your password or just disconect and kill your session.
+After doing some big project I just done a simple Register/Login system with a simple panel where you can restart your password or just disconect.
 All the data are being saved via mysql with a library used for administrating other plugins like if user exist, is loggedin, user actual password...
