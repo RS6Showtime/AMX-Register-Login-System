@@ -20,8 +20,6 @@ new bool: playerexist[33], LoggedIn[33], ResetPassword[33];
 public plugin_init() {
 	register_plugin(PLUGIN, VERSION, AUTHOR);
 	
-	MySql_Init();
-	
 	register_clcmd("say /register", "func_register");
 	register_clcmd("say /login", "func_register");
 	register_clcmd("say /panel", "func_register");
@@ -324,6 +322,10 @@ public _user_loggedin(plugin,iParams[32])
 	if(LoggedIn[id]) return true;
 	else return false;
 	return 1;
+}
+
+public plugin_cfg() {
+	set_task(0.5, "MySql_Init");
 }
 
 // MYSQL
