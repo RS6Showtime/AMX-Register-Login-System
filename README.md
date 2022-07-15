@@ -1,3 +1,5 @@
 # Easy-Register-System
-After doing some big project I just done a simple Register/Login system with a simple panel where you can restart your password or just disconect.
-All the data are being saved via mysql with a library used for administrating other plugins like if user exist, is loggedin, user actual password...
+Un Sistem de logare/delogare/schimbare parola, care poate sa fie de asemenea asamblat la un panou web folosit pentru login/logout.
+Toate datele sunt salvate folosind o baza de date (Datele sql se introduc in sql.cfg din configs).
+
+API: Supported
